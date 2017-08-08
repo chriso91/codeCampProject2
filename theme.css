@@ -1,0 +1,131 @@
+
+html, body{
+	margin: 0;
+	padding: 0;
+	background: #D5D8DC !important;
+}
+
+
+.menu{
+	background: white;
+	border-radius: 0 !important;
+	position: fixed;
+	width: 100%;
+	height: 5%;
+	padding: 5px;
+	z-index: 3;
+	box-shadow: 0 0 10px 10px white;
+}
+
+.menu-text{
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: grey;
+}
+
+.intro{
+	background: #A3E4D7;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+	padding:20px;
+}
+
+.introtext{
+	font-size: 20px;
+	text-align: center;
+	color: grey;
+}
+
+.propic{
+	max-width: 80%;
+}
+
+.picblock{
+	float:left;
+	width: 50%;
+	display: inline-block;
+	min-width: 300px;
+}
+
+hr {
+    height: 3px !important;
+    background-color: grey;
+    border-color: grey !important;
+}
+
+.menu a {
+	color: grey;
+}
+
+.menu a:hover{
+	color: grey;
+}
+
+.menu a:visited{
+	color: grey;
+}
+
+
+.portfolio{
+	background-color: white;
+	color:grey;
+	width:90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.portpic{
+	max-width: 400px;
+	padding: 3%;
+	width: 70%;
+	display: inline-block;
+}
+
+.contactme{
+	background-color: white;
+	color: grey;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.inputb{
+	background-color: white;
+	border-style: none none solid none;
+	font-size: 20px;
+}
+
+
+.web{
+	background-color: #A3E4D7;
+	color:grey;
+	width:100%;
+	text-align: center;
+	padding: 20px;
+}
+
+.foot{
+	background-color: pink;
+	color: grey;
+	text-align: center;
+	width:100%;
+	margin: -10px 0 -10px 0;
+}
+
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background-color: pink;
+    border-radius: 50%;
+}
+
+#subbut:hover{
+	background-color: #A3E4D7;
+}
