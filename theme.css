@@ -25,6 +25,7 @@ html, body{
 
 .intro{
 	background: #A3E4D7;
+	box-shadow: 0 0 12px 12px #A3E4D7;
 	width: 90%;
 	margin: 0 auto;
 	position: relative;
@@ -70,6 +71,7 @@ hr {
 
 .portfolio{
 	background-color: white;
+	box-shadow: 0 0 10px 10px white;
 	color:grey;
 	width:90%;
 	margin: 0 auto;
@@ -85,6 +87,7 @@ hr {
 
 .contactme{
 	background-color: white;
+	box-shadow: 0 0 10px 10px white;
 	color: grey;
 	width: 90%;
 	margin: 0 auto;
@@ -101,6 +104,7 @@ hr {
 
 .web{
 	background-color: #A3E4D7;
+	box-shadow: 0 0 12px 12px #A3E4D7;
 	color:grey;
 	width:100%;
 	text-align: center;
@@ -109,6 +113,7 @@ hr {
 
 .foot{
 	background-color: pink;
+	box-shadow: 0 0 12px 12px pink;
 	color: grey;
 	text-align: center;
 	width:100%;
@@ -129,3 +134,12 @@ hr {
 #subbut:hover{
 	background-color: #A3E4D7;
 }
+
+
+textarea{
+	width: 250px;
+	height:225px;
+	border-color: grey;
+	border-width: 2px;
+}
+
